@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+#topbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    min-width: 50%;
+    min-height: 80px;
+    background-color: white;
+    /* padding-right: 180px; */
+    margin-bottom: 50px;
+    float: left;
+    
+}
+
+header{
+    position: sticky;
+    /* z-index: 1; */
+    background-color: white;
+    width: 30%;
+    min-height: 80px;
+
+    padding-top: 20px;
+    padding-left: 5px;
+    color: rgb(96, 171, 196);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    float: left;
+    margin-right: 0px;
+}
+
+#logo{
+    display: none;
+}
+
+@media (max-width: 950px){
+    #logo{
+        display: inline-block;
+        float: right;
+        padding-top: 20px;
+        padding-left: 8px;
+    }
+    header{
+        display: none;
+    }
+}
+
+#formquery{
+    position: sticky;
+    width: 70%;
+    min-height: 40px;
+    border-radius: 6px;
+    /* margin-right: 100px; */
+    margin-top: 20px;
+    float: right;
+}
+
+*:focus{
+    outline: none;
+}
+
+#go-search{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    width: 50%;
+    min-height: 80px;
+    background-color: white;
+    float: right;
+}
+
+nav{
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    min-height: 30px;
+    min-width: 100%;
+    background-color: white;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav li{
+    float: left;
+
+    color: rgb(19, 160, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a{ 
+    color: rgb(19, 160, 226);
+    text-decoration: none; 
+    text-align: center;  
+}
+
+nav a:hover{
+    color: rgb(96, 171, 196);
+}
+
+.section-a{
+    width: 100%;
+    background-color:white;
+    height: 600px;
+}
+
+.section-b{
+    width: 100%;
+    background-color:rgb(96, 171, 196);
+    height: 600px;
+}
+
+
+/* End indexscrum */
+
+/* Start registerscrum en loginscrum */
+
+section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-size: 26px;
+}
+
+.section-aa{
+    float: left;
+    background-color: rgb(96, 171, 196);
+    color: white;
+    width: 50%;
+    min-height: 750px;
+    padding: 200px;
+}
+
+.section-ba{ 
+    float: right;
+    background-color: white;
+    color: rgb(96, 171, 196);
+    width: 50%;
+    min-height: 750px;
+    padding: 200px;
+}
+
+.formstyle{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(19, 160, 226);
+    border-radius: 6px;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+    float: left;
+    width: 15px;
+    color: rgb(96, 171, 196);
+}
+
+h6{
+    padding-top: 7px;
+}
+
+#submit-button{
+    width: 200px;
+    /* height: 40px; */
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: rgb(96, 171, 196);
+    cursor: pointer;
+   
+    padding: 10px;
+    font-weight: bolder;
+}
+
+#login-button{
+padding: 10px;
+width: 100px;
+height: 50px;
+text-decoration: none;
+list-style-type: none;
+color: white;
+}
+
+#signup-button{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+#login-button a:hover{
+    color: rgb(236, 236, 241);
+}
+
+/* eind register en loginscrum */
+
+/* Start welkomscrum */
+
+/* eind welkomscrum */
+
+.section-c{
+    background-color:rgb(96, 171, 196);
+    height: 600px;
+    width: 100%;
+}
