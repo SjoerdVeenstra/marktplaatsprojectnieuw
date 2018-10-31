@@ -42,10 +42,12 @@ include 'configmarktplaats.php';
 
 }
 else{
-    echo "gegevens zijn niet compleet!";
+    // echo "gegevens zijn niet compleet";
     foreach ($errors as $error) {
         echo $error;
  }
 
 }
 ?>
+
+<!-- // array_push -->
