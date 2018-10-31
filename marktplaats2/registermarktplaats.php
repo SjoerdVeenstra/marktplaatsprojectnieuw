@@ -7,7 +7,7 @@
 
 <body>
     <section>
-        <form action="validatemarktplaats.php" method="POST"> 
+        <form action="validatemarktplaats.php" method="POST" target="_blank"> 
         <p>Sign up as a customer</p>
             <input type ="text" name="firstname" placeholder="First name..." class="form-style">
             <input type="text" name="lastname" placeholder="Last name..." class="form-style">

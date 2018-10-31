@@ -65,13 +65,15 @@ $sql = "INSERT INTO Customers (firstname, lastname, email, password)
 VALUES ('$firstname', '$lastname', '$email', '$password')";
 
 if (mysqli_query($conn, $sql)) {
-    echo "New record created successfully";
+    // echo "New record created successfully";
+    header("Location: welcomemarktplaats.php");
 } else {
     echo "Error: "   . $sql . "<br>" . mysqli_error($conn);
 }
 
 mysqli_close($conn); 2 
 // loginpagina (op validate of doorverwijzen?), welkomstpagina, code oop.
+// https://stackoverflow.com/questions/14589193/clearing-my-form-inputs-after-submission
 ?>
 
 

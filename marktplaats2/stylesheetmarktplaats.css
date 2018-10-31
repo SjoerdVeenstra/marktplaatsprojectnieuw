@@ -19,3 +19,9 @@ section{
     color: rgb(19, 160, 226);
     border-radius: 6px;
 }
+
+#welcome-message{
+    width: 30%;
+    height: 100px;
+    background-color: white;
+}
