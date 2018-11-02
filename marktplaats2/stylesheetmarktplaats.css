@@ -40,6 +40,11 @@ header{
     margin-right: 0px;
 }
 
+header a{
+    text-decoration: none;
+    color: rgb(96, 171, 196);
+}
+
 #logo{
     display: none;
 }
@@ -203,6 +208,7 @@ section{
     border: 1px;
     border-style: solid;
     border-color: grey;
+    padding: 150px;
 }
 
 #welcome-message{
@@ -241,6 +247,8 @@ section{
 footer a{
     color: rgb(96, 171, 196);
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-weight: normal;
 }
 
 footer a:hover{

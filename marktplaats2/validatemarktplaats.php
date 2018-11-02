@@ -39,6 +39,7 @@ if (count($errors)==0){
  echo $_POST["email"];
  echo $_POST["password"];
 include 'configmarktplaats.php';
+header("Location: welcomemarktplaats.php");
 
 }
 else{
@@ -49,5 +50,3 @@ else{
 
 }
 ?>
-
-<!-- // array_push -->

@@ -1,3 +1,9 @@
+<?php
+
+include 'configmarktplaats.php';
+include 'viewcustomer.inc.php';
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,10 +17,10 @@
     <!-- <div id="register-frame"> -->
         <form action="validatemarktplaats.php" method="POST" target="_blank" class="form"> 
         <p class="form-intro"><b>Sign up as a customer:</b></p><br>
-            <input type ="text" name="firstname" placeholder="First name..." class="form-style"><br><br>
-            <input type="text" name="lastname" placeholder="Last name..." class="form-style"><br><br>
-            <input type="text" name="email" placeholder="E-mail..." class="form-style"><br><br>
-            <input type="password" name="password" placeholder="Password..." class="form-style"><br><br>
+            <input type ="text" name="firstname" placeholder="First name..." onfocus="this.value=''" class="form-style"><br><br>
+            <input type="text" name="lastname" placeholder="Last name..." onfocus="this.value=''" class="form-style"><br><br>
+            <input type="text" name="email" placeholder="E-mail..." onfocus="this.value=''" class="form-style"><br><br>
+            <input type="password" name="password" placeholder="Password..." onfocus="this.value=''" class="form-style"><br><br>
             <input type="submit" value="Submit" class="submit-button">
         </form>
     </div>

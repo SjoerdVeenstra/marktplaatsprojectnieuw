@@ -10,7 +10,8 @@
         <div id="welcome-frame">
             
             <div id="welcome-message"><b>Thank you for registering with us!</b> <br><br><br>
-            <a href="loginmarktplaats.php" target="_blank">Click here to go to the login page<a>
+            <a href="loginmarktplaats.php" target="_blank">
+            Click here to go to the login page:<a>
             </div>
         </div>
 </section>

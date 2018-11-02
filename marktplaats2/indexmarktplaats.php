@@ -1,5 +1,6 @@
 <!-- quick fix: position: sticky. responsive: min-height -->
-<!-- index, register, validate, config, welcome, login, -->
+<!-- index, register, validate, config, welcome, login,
+https://trello.com/b/XrRh7P6t/ongetiteld-bord -->
 
 <!DOCTYPE html>
 <html>
@@ -11,9 +12,9 @@
 <body>
 
 <div id="topbar">
-   <header>Zalando</header> 
+   <header><a href="#home">Zalando</a></header> 
 
-<div id="logo"><img src ="images/logozalando2.png" style="width:35px; height:35px;"></div>
+<div id="logo"><a href="#home"><img src ="images/logozalando2.png" style="width:35px; height:35px;"></a></div>
 
    <!-- <div id="row"> -->
    <form action="result.php" method="GET">
@@ -34,6 +35,7 @@
            <li>Toys</li>
            <li>Music</li>
            <li>Deals</li>
+           <li>Contact us</li>
 
         <div id="sign-up-in">
            <li><a href="http://localhost/websites/code4/marktplaatsproject/marktplaats2/loginmarktplaats.php" target="_blank">Sign in</a></li>
